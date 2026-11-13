@@ -134,3 +134,7 @@ The key sales signal is **Reports → View Count / First Viewed At**: a homeowne
 5. Set `PROVIDER=cotality` (or the `provider` field in the brand file), try it against the provider's test environment, then production.
 
 See `DEPLOY.md` for hosting with Docker.
+
+## License
+
+Source-available, all rights reserved: you can read the code and run it locally to evaluate it, but commercial use needs written permission. See `LICENSE`.
