@@ -296,11 +296,12 @@ button, input { font: inherit; color: inherit; }
 
 /* demo-only brand picker */
 .brand-switch {
-  position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 50; display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  position: fixed; left: 12px; right: 12px; bottom: 14px; margin: 0 auto; width: fit-content; z-index: 50; display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
   background: rgb(17 17 17 / 92%); color: #fff; border-radius: 22px; padding: 8px 10px 8px 16px; justify-content: center; font-size: 13px; max-width: calc(100vw - 24px);
   box-shadow: 0 8px 24px rgb(0 0 0 / 28%);
 }
 .brand-switch span { opacity: .65; }
+.brand-switch a { white-space: nowrap; }
 .brand-switch a { text-decoration: none; padding: 5px 12px; border-radius: 999px; color: #fff; }
 .brand-switch a:hover { background: rgb(255 255 255 / 15%); }
 .brand-switch a[aria-current="true"] { background: #fff; color: #111; }
