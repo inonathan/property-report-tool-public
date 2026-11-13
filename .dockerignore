@@ -1,0 +1,7 @@
+node_modules
+.next
+data
+shots
+.env*
+*.md
+tsconfig.tsbuildinfo
